@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-size: 20px;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+input {
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+
+
+label[for="remember"] {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.remember-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  height: 24px;
+}
+
+button {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+}
+
+.message {
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section {
+  margin: 25px 0;
+  padding: 15px;
+}
+
+.upload-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+
+}
+  
+.upload-form input[type="file"] {
+  flex: 1;
+  min-width: 200px;
+  font-size: 16px;
+}
+
+.file-list {
+  margin-top: 15px;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.file-name {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.file-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.logout-form {
+  margin: 50px auto;       
+  max-width: 300px;
+  text-align: center;
+}
+
+
